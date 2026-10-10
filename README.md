@@ -1,7 +1,5 @@
-# inventory-app
-Mini Project Inventory Management System built with PHP, PDO, MySQL, and Soft Blue UI.
-
 📦 Inventory Management System (PHP Native & MySQL)
+
 Sistem Informasi Manajemen Inventaris berbasis web yang dibangun menggunakan PHP Native dan database MySQL. Aplikasi ini dirancang untuk membantu pengelolaan produk, pemantauan stok secara real-time, serta pencatatan transaksi barang masuk dan barang keluar secara efisien dan aman.
 
 📸 Fitur Utama
@@ -74,6 +72,7 @@ Jalankan query SQL berikut untuk membuat tabel dan data awal:
 
 CREATE DATABASE IF NOT EXISTS inventory_db;
 USE inventory_db;
+
 -- Tabel Users
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -116,7 +115,6 @@ INSERT INTO users (username, password, role) VALUES
 
 Konfigurasi Database
 Pastikan pengaturan pada file config/database.php sudah sesuai dengan environment lokal kamu:
-
 $host = 'localhost';
 $db   = 'inventory_db';
 $user = 'root';
